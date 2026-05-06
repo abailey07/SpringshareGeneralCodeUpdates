@@ -1,0 +1,348 @@
+<div class="accordion" id="TopicGuide-accordion">
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dsd"
+				aria-expanded="true" aria-controls="dsd">Digital Scholarship &amp;
+				Data&nbsp;</button>
+		</h3>
+		<div id="dsd" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/datasources">Data Sources provided by UK Libraries</a></li>
+					<li><a href="https://libguides.uky.edu/dh">Digital Humanities</a></li>
+					<li><a href="https://libguides.uky.edu/oer">Open Educational Resources</a></li>
+					<li><a href="https://libguides.uky.edu/dsd-services/tools">Tools for Digital Scholarship &amp;
+							Data</a></li>
+					<li><a href="https://libguides.uky.edu/learning-lab-dh">UK Libraries Learning Lab &amp; Digital
+							Humanities</a></li>
+					<li><a href="https://libguides.uky.edu/icpsr">Inter-University Consortium for Political and Social
+							Research (ICPSR)</a></li>
+					<li><a href="https://libguides.uky.edu/OpenAccess">Open Access</a></li>
+					<li><a href="https://libguides.uky.edu/research_data">Research Data Services at UK</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+				data-bs-target="#UniqueLib" aria-expanded="false" aria-controls="UniqueLib">Guides to
+				Unique Library Resources&nbsp;</button>
+		</h3>
+		<div id="UniqueLib" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/19thcenturyperiodicals">19th Century Periodicals</a></li>
+					<li><a href="https://libguides.uky.edu/Biog">Biographical Information</a></li>
+					<li><a href="https://libguides.uky.edu/bkrev">Book Review Resources</a></li>
+					<li><a href="https://libguides.uky.edu/CBSpCol">Children&#39;s Book Collection in the Special
+							Collections Research Center</a></li>
+					<li><a href="https://libguides.uky.edu/EthnicandAlternativeNewspapers">Ethnic &amp; Alternative
+							Newspaper Collections - Online</a></li>
+					<li><a href="https://libguides.uky.edu/genealogy">Genealogy</a></li>
+					<li><a href="https://libguides.uky.edu/historicalstatistics">Historical Statistics</a></li>
+					<li><a href="https://libguides.uky.edu/international">International Resources</a></li>
+					<li><a href="https://libguides.uky.edu/newspapers">Newspapers</a></li>
+					<li><a href="https://libguides.uky.edu/nonenglish">Non-English Resources in UK Libraries</a></li>
+					<li><a href="https://libguides.uky.edu/oralhistory">Oral History Research and Resources</a></li>
+					<li><a href="https://libguides.uky.edu/plagiarism">Plagiarism</a></li>
+					<li><a href="https://libguides.uky.edu/movablebooks">Richardson Collection of Movable Books</a></li>
+					<li><a href="https://libguides.uky.edu/scifispecial">Science Fiction &amp; Fantasy Book Collection
+							in the Special Collections Research Center</a></li>
+					<li><a href="https://libguides.uky.edu/style">Style Guides &amp; Manuals</a></li>
+					<li><a href="https://libguides.uky.edu/typingLOTE">Typing in Foreign Languages</a></li>
+					<li><a href="https://libguides.uky.edu/UGRA">UK Libraries Dean&#39;s Award for Excellence in
+							Undergraduate Scholarship</a></li>
+					<li><a href="https://libguides.uky.edu/WadeHall">Wade Hall Collection of American Letters</a></li>
+					<li><a href="https://libguides.uky.edu/SCRC/war">War and Conflict Special Collections</a></li>
+					<li><a href="https://libguides.uky.edu/wpa">Works Progress Administration</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#agri"
+				aria-expanded="false" aria-controls="agri">Special
+				Topics: Agriculture&nbsp;</button>
+		</h3>
+		<div id="agri" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/IACUC">Animal Welfare</a></li>
+					<li><a href="https://libguides.uky.edu/SCRC/agriculture">Agriculture Special Collections</a></li>
+					<li><a href="https://libguides.uky.edu/cafedatabases">CAFE Databases</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#arts"
+				aria-expanded="false" aria-controls="arts">Special
+				Topics: Art, Music, and Design&nbsp;</button>
+		</h3>
+		<div id="arts" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/AAWPMI">African American Women Play Musical Instruments</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/SCRC/architecture">Architecture and Design Special
+							Collections</a></li>
+					<li><a href="https://libguides.uky.edu/LittleLibraryart">Art in the Lucille Caudill Little Fine Arts
+							Library</a></li>
+					<li><a href="https://libguides.uky.edu/artistfiles">Artist Files in the Lucille Caudill Little Fine
+							Arts Library</a></li>
+					<li><a href="https://libguides.uky.edu/artistsbooks">Artists&#39; Books in the Lucille Caudill
+							Little Fine Arts Library</a></li>
+					<li><a href="https://libguides.uky.edu/brass_instruments">Brass Instruments</a></li>
+					<li><a href="https://libguides.uky.edu/musiccopyright">Copyright &amp; Music</a></li>
+					<li><a href="https://libguides.uky.edu/music-demographic-research">Demographic Resources in
+							Music</a></li>
+					<li><a href="https://libguides.uky.edu/ethnomusicology">Ethnomusicology</a></li>
+					<li><a href="https://libguides.uky.edu/MUS101">Music Just the Basics</a></li>
+					<li><a href="https://libguides.uky.edu/musiconlinescores">Music Scores Online</a></li>
+					<li><a href="https://libguides.uky.edu/musictheory">Music Theory</a></li>
+					<li><a href="https://libguides.uky.edu/MusicTherapy">Music Therapy</a></li>
+					<li><a href="https://libguides.uky.edu/opera">Opera</a></li>
+					<li><a href="https://libguides.uky.edu/percussion">Percussion Instruments</a></li>
+					<li><a href="https://libguides.uky.edu/woodwinds">Woodwind Instruments</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#busi"
+				aria-expanded="false" aria-controls="busi">Special
+				Topics:&nbsp;Business, Politics, and Law&nbsp;</button>
+		</h3>
+		<div id="busi" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/SCRC/business">Business, Industry, and Labor Special
+							Collections</a></li>
+					<li><a href="https://libguides.uky.edu/finance">Finance &amp; Investment</a></li>
+					<li><a href="https://libguides.uky.edu/internationalbusiness">International Business</a></li>
+					<li><a href="https://library.law.uky.edu/c.php?g=267726&amp;p=1786487">Law Library Guides</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mcl"
+				aria-expanded="false" aria-controls="mcl">Special Topics:
+				Health and Medicine&nbsp;</button>
+		</h3>
+		<div id="mcl" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/medicine/study">College of Medicine Study Skills</a></li>
+					<li><a href="https://libguides.uky.edu/DREAMscholars">DREAM Scholars</a></li>
+					<li><a href="https://libguides.uky.edu/evidence">Evidence-Based Medicine</a></li>
+					<li><a href="https://libguides.uky.edu/freedrugresources">Free Drug Resources</a></li>
+					<li><a href="https://libguides.uky.edu/Gerontology">Gerontology</a></li>
+					<li><a href="https://libguides.uky.edu/SCRC/medicine">Health and Medicine Special Collections</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/IACUC">IACUC: Literature Searching Essential</a></li>
+					<li><a href="https://libguides.uky.edu/intmed">Internal Medicine</a></li>
+					<li><a href="https://libguides.uky.edu/nephrology">Nephrology</a></li>
+					<li><a href="https://libguides.uky.edu/obgyn">Obstetrics &amp; Gynecology</a></li>
+					<li><a href="https://libguides.uky.edu/OccPrevMed">Occupational and Preventive Medicine</a></li>
+					<li><a href="https://libguides.uky.edu/ophthalmology">Ophthalmology</a></li>
+					<li><a href="https://libguides.uky.edu/peds">Pediatrics</a></li>
+					<li><a href="https://libguides.uky.edu/PMR">Physical Medicine &amp; Rehabilitation</a></li>
+					<li><a href="https://libguides.uky.edu/psychiatry">Psychiatry &amp; Mental Health Resources</a></li>
+					<li><a href="https://libguides.uky.edu/substanceabuse">Substance Abuse</a></li>
+					<li><a href="https://libguides.uky.edu/systematicreview">Systematic Reviews</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#history"
+				aria-expanded="false" aria-controls="history">Special
+				Topics: History&nbsp;</button>
+		</h3>
+		<div id="history" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/black-paris">Black Paris: France in the 20th Century</a></li>
+					<li><a href="https://libguides.uky.edu/british-history">British History</a></li>
+					<li><a href="https://libguides.uky.edu/china-in-revolution">China in Revolution, 1895-1976</a></li>
+					<li><a href="https://libguides.uky.edu/cold-war">Cold War</a></li>
+					<li><a href="https://libguides.uky.edu/crime-in-history">Crime in History</a></li>
+					<li><a href="https://libguides.uky.edu/scottish-diaspora">European History Since 1789 - Scottish
+							Diaspora</a></li>
+					<li><a href="https://libguides.uky.edu/famous-trials">Famous Trials</a></li>
+					<li><a href="https://libguides.uky.edu/history-in-the-news">History in the News</a></li>
+					<li><a href="https://libguides.uky.edu/jack-the-ripper-london">Jack the Ripper&#39;s London</a></li>
+					<li><a href="https://libguides.uky.edu/Jewishrefugees">Jewish Refugees in Shanghai (1933-1941)</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/history-slavery">Researching African American Slavery in U.S.
+							History</a></li>
+					<li><a href="https://libguides.uky.edu/vietnamwar">Vietnam War - Exploring Perspectives through
+							Primary Sources</a></li>
+					<li><a href="https://libguides.uky.edu/women-in-african-history/">Women in African History</a></li>
+					<li><a href="https://libguides.uky.edu/critical-book-reviews-history">Writing a Critical Book Review
+							for History Students</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+				data-bs-target="#humanities" aria-expanded="false" aria-controls="humanities">Special
+				Topics: Humanities&nbsp;</button>
+		</h3>
+		<div id="humanities" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/afamsc">African American Primary Resources in the Special
+							Collections Research Center</a></li>
+					<li><a href="https://libguides.uky.edu/China">China</a></li>
+					<li><a href="https://libguides.uky.edu/drugs-alcohol-in-history">Drugs &amp; Alcohol in History</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/SCRC/Environment">Environment and Natural Resources Special
+							Collections</a></li>
+					<li><a href="https://libguides.uky.edu/environmental_humanities">Environmental Humanities</a></li>
+					<li><a href="https://libguides.uky.edu/SCRC/hispanicstudies">Hispanic Studies Special
+							Collections</a></li>
+					<li><a href="https://libguides.uky.edu/latinoculture">Hispanic/Latino Culture</a></li>
+					<li><a href="https://libguides.uky.edu/horrorfilms">Horror Film</a></li>
+					<li><a href="https://libguides.uky.edu/popculture">Popular Culture</a></li>
+					<li><a href="https://libguides.uky.edu/renaissance">Renaissance Literature</a></li>
+					<li><a href="https://libguides.uky.edu/shakespeare">Shakespeare Studies</a></li>
+					<li><a href="https://libguides.uky.edu/television">Television</a></li>
+					<li><a href="https://libguides.uky.edu/victorianlit">Victorian Literature</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+				data-bs-target="#kentucky" aria-expanded="false" aria-controls="kentucky">Special
+				Topics: Kentucky &amp; Appalachia&nbsp;</button>
+		</h3>
+		<div id="kentucky" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/SCRC/appalachia">Appalachia Special Collections</a></li>
+					<li><a href="https://libguides.uky.edu/ARC">Appalachian Regional Commission</a></li>
+					<li><a href="https://libguides.uky.edu/Appalshop">Appalshop Film Collection</a></li>
+					<li><a href="https://libguides.uky.edu/documenting-racial-violence-kentucky">Documenting Racial
+							Violence in Kentucky, 1880 and 1950</a></li>
+					<li><a href="https://libguides.uky.edu/Braden_Case">Exploring Primary Sources: Braden Exercise</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/coal">Exploring Primary Sources: Coal in Kentucky
+							Exercise</a></li>
+					<li><a href="https://libguides.uky.edu/environmental_activism">Exploring Primary Sources:
+							Environmental Activism in Appalachia Exercise</a></li>
+					<li><a href="https://libguides.uky.edu/suffrage">Exploring Primary Sources: Kentucky Women&#39;s
+							Suffrage Exercise</a></li>
+					<li><a href="https://libguides.uky.edu/Food">Food Insecurity in Kentucky</a></li>
+					<li><a href="https://libguides.uky.edu/kyfdl">Kentucky Federal Depository Libraries</a></li>
+					<li><a href="https://libguides.uky.edu/SCRC/kentucky">Kentucky History Special Collections</a></li>
+					<li><a href="https://libguides.uky.edu/cooper">Kentucky Politics: John Sherman Cooper</a></li>
+					<li><a href="https://libguides.uky.edu/ky-environmental-history">Kentucky Woods and Waters</a></li>
+					<li><a href="https://libguides.uky.edu/kentuckyauthors">Kentucky Writers: Authors of the Bluegrass
+							State</a></li>
+					<li><a href="https://libguides.uky.edu/quilts">Quilts in Kentucky</a></li>
+					<li><a href="https://libguides.uky.edu/AfricanAmericanSlavery">Researching African American Slavery
+							in Kentucky</a></li>
+					<li><a href="https://libguides.uky.edu/kentucky-1900-present">Researching Kentucky, 1900-present</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/history351">Sisters in the Struggle: Kentucky Women in the
+							Civil Rights Era, 1920s-1970s</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#science"
+				aria-expanded="false" aria-controls="science">Special
+				Topics: Science, Math, and Engineering&nbsp;</button>
+		</h3>
+		<div id="science" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/IACUC">IACUC: Literature Searching Essential</a></li>
+					<li><a href="https://libguides.uky.edu/patents">Patent &amp; Trademark Information</a></li>
+					<li><a href="https://libguides.uky.edu/standards">Standards &amp; Specifications</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#social"
+				aria-expanded="false" aria-controls="social">Special
+				Topics: Social Sciences, Education, and Communication&nbsp;</button>
+		</h3>
+		<div id="social" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/Countries">Countries</a></li>
+					<li><a href="https://libguides.uky.edu/SCRC/education">Education Special Collections</a></li>
+					<li><a href="https://libguides.uky.edu/gis_mapping">GIS &amp; Digital Mapping</a></li>
+
+					<li><a href="https://libguides.uky.edu/ICPSR">Inter-University Consortium for Political and Social
+							Research (ICPSR)</a></li>
+					<li><a href="https://libguides.uky.edu/lesbianstudies">Lesbian Studies</a></li>
+					<li><a href="https://libguides.uky.edu/maps">Maps</a></li>
+					<li><a href="https://libguides.uky.edu/ilearn">The I-LEARN Model</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#uk"
+				aria-expanded="false" aria-controls="uk">Special Topics:
+				University of Kentucky&nbsp;</button>
+		</h3>
+		<div id="uk" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/AnnRiceOHanlon">Ann Rice O'Hanlon &amp; The Memorial Hall
+							Mural</a></li>
+					<li><a href="https://libguides.uky.edu/Vietnam">Exploring Primary Sources: Four Days in May: The
+							Vietnam War Experience at UK</a></li>
+					<li><a href="https://libguides.uky.edu/LTJ">Exploring Primary Sources: Lyman T. Johnson Exercise</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/kentucky_authors">Kentucky Authors in Special Collections</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/KentuckyTheses">Kentucky History of Education Theses
+							Series</a></li>
+					<li><a href="https://libguides.uky.edu/uk_presidents">University of Kentucky Presidents</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="accordion-item">
+		<h3 class="accordion-header">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lifeUK"
+				aria-expanded="false" aria-controls="lifeUK">Student
+				Life&nbsp;</button>
+		</h3>
+		<div id="lifeUK" class="accordion-collapse collapse" data-bs-parent="#TopicGuide-accordion">
+			<div class="accordion-body">
+				<ul>
+					<li><a href="https://libguides.uky.edu/careerresources">Career Resources</a></li>
+					<li><a href="https://libguides.uky.edu/CareerMBA">Career Resources for MBA Students</a></li>
+					<li><a href="https://libguides.uky.edu/LGBTQ">Central Kentucky LGBTQIA+ Resource Guide</a></li>
+					<li><a href="https://libguides.uky.edu/ukdebate">Debate Team: Library Resources for UK Debate</a>
+					</li>
+					<li><a href="https://libguides.uky.edu/popularreads">Leisure Reading</a></li>
+					<li><a href="https://libguides.uky.edu/lewis">Lewis Honors College</a></li>
+					<li><a href="https://libguides.uky.edu/lisresources">Resources for MSLS Students</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
