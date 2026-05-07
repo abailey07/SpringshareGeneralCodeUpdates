@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* College Template CSS Document */
+
+/*Header Padding and Font*/
+#s-lg-guide-name {
+	color: #fff; 
+	font-weight: 600;
+	padding:20px 10px;
+}
+
+#s-lg-guide-header-search {
+	display:none;
+} /*hides search box from header*/
+
+#s-lg-guide-tabs-title-bar {
+    border-top: none;
+}/*hides blue bar below nav*/
+
+.video {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+
+/*Centers images and videos*/
+
+a {
+  color: #0033A0;
+}
+
+a:hover {
+  font-weight: 600;
+}
+
+/*Rss Feeds*/
+.s-lg-rss-list {
+    color: #000;
+}
+
+.s-lg-rss-list a {
+    color: #0033A0;
+}
+
+.s-lg-rss-date.pull-right {
+    color: #000;
+}
+/*Fonts & Hyperlinks*/
+#s-lg-guide-main {
+	font-size: 16px;
+}
+
+h2 {
+	font-size:1.25em;
+}
+
+.blueunderline {
+	border-bottom: 1px solid #143887; 
+	padding: 5px; 
+	font-weight: 600; 
+	font-size: 1.2em; 
+	margin-top: 0px;
+}
+
+.graybox {
+	background: #efefef; 
+	padding: 10px; 
+	font-weight: 600; 
+	font-size: 1.2em; 
+	margin-top: 0px; 
+	color: #000;
+}
+
+h3 {
+	color: #0033A0;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	font-weight: 700;
+	font-size: 1.2em;	
+}
+
+h4 {
+	font-weight: 700; 
+	font-size: 1.1em; 
+	color: #0033A0;
+}
+
+.resources a {
+    font-size: 1em;
+    color: #000;
+}
+
+.resources a:hover {
+    font-weight: 600;
+}
+
+
+/*hides search box from header*/
+#s-lg-guide-header-search {
+	display:none;
+} 
+
+/*Floating options*/
+.floatright {
+	float:right;
+	width:45%;
+}
+
+.floatleft {
+	float:left; 
+	width:45%;
+	padding-left: 5px;
+}
+
+.floatright60 {
+	float: right;
+	width: 58%;
+}
+
+.floatleft40 {
+	float: left;
+	width: 40%;
+}
+
+.floatleft60 {
+	float: left;
+	width: 58%;
+}
+
+.floatright40 {
+	float: right;
+	width: 40%;
+}
+
+/*Portal Buttons*/
+#UserType {
+	display: inline-flex;
+	padding: 5px;
+}
+
+figcaption {
+	background: #1B365D;
+	width:100%;
+	padding:10px;
+	border: 3px solid #fff;
+	text-align:center; 
+	font-weight: 600; /*bold text*/
+	color: white; 
+	cursor: pointer;
+}
+
+figure img {
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 65%;
+}
+
+figure img:hover {
+	opacity: .6;
+}
+
+figcaption:hover {
+	background-color: #DCDDDE;
+	text-decoration: none;
+	color: #000;
+}
+
+/*Ask a Librarian*/
+#s-lg-content-52073782 {
+	border: solid 3px #ededed; 
+	padding: 5px 10px; 
+	text-align: center;
+}
+
+
+/*Accordians*/
+.panel-group .panel {
+	border-radius: 0px;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+/*Buttons*/
+#buttons .btn {
+	border: 1px solid #1B365D;
+	background-color:#fff;
+	padding:10px;
+	margin:5px 0px;
+	width:100%;
+	color:#000;
+	cursor:pointer;
+	display:inline-block;
+	border-radius:0px;
+	font-weight:600;
+}
+
+#buttons .btn:hover {
+	background:#DCDDDE; 
+	color:#000;
+}
+
+/*RWS Past Recordings Buttons*/
+.HeaderLeft {float:left; width: 25%; }
+.HeaderRight {float:right; width: 74%;text-align: left;}
+
+.button7 {
+	border-radius:0px; 
+	background: #f2f2f2;
+	border: none;
+	color:#000; 
+	padding: 20px 15px;
+	width: 100%;
+	height: 250px;
+	font-weight:500;
+	text-transform: none;
+	cursor:pointer; 
+	display:inline-block; 
+	margin: 5px;
+	position: relative;
+}
+
+.arrow-button {
+	display: flex; 
+	color: #FFF; 
+	background-color:#1B365D; 
+	padding: 10px 16px; 
+	border-radius: 20px; 
+	transition: all .3s ease; 
+	font-weight: bold; 
+	cursor: pointer; 
+	align-items: center; 
+	font-size: 14px;
+}
+
+.arrow-button > .arrow {
+	width: 6px;
+	height: 6px;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #fff;
+	position: relative;
+	transform: rotate(-45deg);
+	margin: 0 6px;
+	transition: all .3s ease;
+}
+
+.arrow-button > .arrow::before {
+	display: block;
+	background-color: currentColor;
+	width: 3px;
+	transform-origin: bottom right;
+	height: 2px;
+	position: absolute;
+	opacity: 0;
+	bottom: calc(-2px / 2);
+	transform: rotate(45deg);
+	transition: all .3s ease;
+	content: "";
+	right: 0;
+}
+
+.arrow-button:hover > .arrow {
+	transform: rotate(-45deg) translate(4px, 4px);
+	border-color: text-hover-color;
+}
+
+.arrow-button:hover > .arrow::before {
+	opacity: 1;
+	width: 8px;
+}
+
+.arrow-button:hover {
+	background-color: #1E8AFF;
+	color: #fff;
+}
+
+/*tables hyperlinks*/
+table.table.table-bordered a {
+    color: #0033A0;
+	font-weight: 550;
+}
+
+/*hyperlinks for ul*/
+ul a {
+    color: #0033A0;
+}
+
+ul a:hover {
+    font-weight:700;
+	text-decoration: underline;
+}
+
+/*Calendar*/
+#mini-calendar {
+    border: 3px solid #1B365D;
+    padding: 5px;
+    border-radius: 0px;
+}
+.cal-mini-hasevent a {
+	background-color: #1B365D;
+}
+
+a.calevent-mini-a {
+    color: #1B365D;
+}
+
+.cal-mini-title {
+    text-align: center;
+    color: #000;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#calevent-mini-list-h {
+	color:#000;
+}
+
+.cal-mini-day-head {
+	color:#000;
+}
+
+/*Mobile*/
+@media (max-width: 700px) { 
+	figcaption {
+		font-size:16px;
+	} /*makes font smaller on mobile device*/
+	
+	.utility-links {
+   		margin-top: -40px;
+	}/*edit for new header-makes research guides closer to title*/
+}
+@media (max-width: 576px) {
+	#UserType {
+		display:block;
+	} 
+	
+	figure img {
+		display:none;
+	} /*hides images on main page*/
+	
+	.floatleft {
+		width:100%;
+	}/*changes two columns to one column on mobile*/
+	
+	.floatright {
+	  width:100%;
+	  padding-left: 5px;
+	}
+	}
