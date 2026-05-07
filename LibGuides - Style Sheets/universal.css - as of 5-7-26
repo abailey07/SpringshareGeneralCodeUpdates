@@ -1,0 +1,385 @@
+/*
+
+    Wildly Possible Color Palette:
+
+    Primary:
+
+        Wildcat Blue:   #0033A0;
+        White:          #FFFFFF;
+
+    Secondary:
+
+        Bluegrass:      #1E8AFF;
+        Sky:            #B1C9E8;
+        Midnight:       #1B365D;
+        Goldenrod:      #FFDC00;
+        Sunset:         #FFA360;
+        River Green:    #4CBCC0;
+
+*/
+
+
+body {
+    min-width: 400px;
+}
+
+.uklib-logo-large {
+    margin-left: 12px;
+    margin-top: 8px;
+    height: 42px;
+    overflow-x: hidden;
+}
+
+.uklib-logo-small {
+}
+
+
+/* Utilities */
+
+.vcenter { display: flex; flex-direction: column; justify-content: center; }
+.pt-medium { padding-top: 18px; }
+.pt-large { padding-top: 36px; }
+.pb-medium { padding-bottom: 18px; }
+.pb-large { padding-bottom: 36px; }
+.mt-medium { margin-top: 18px; }
+.mt-large { margin-top: 36px; }
+.mb-medium { margin-bottom: 18px; }
+.mb-large { margin-bottom: 36px; }
+.pr-medium { padding-right: 18px; }
+
+.toggle-me {
+    display: none;
+}
+
+.dashing-li {
+    border-bottom: 1px dashed #000000;
+    padding: 5px 0;
+}
+
+.dashing-li-last {
+    padding: 5px 0;
+}
+
+.dashing-li:after,
+.dashing-li-last:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* More text styles used in header */
+.featuredText {
+    color: #4CBCC0 !important;
+}
+.otherText {
+    color: #FFFFFF !important;
+}
+
+/* Universal Universal Classes (used for both header and footer) */
+
+.navbar-uklib {
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+    border: 0;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 14px;
+}
+
+.navbar-uklib-darkblue {
+    background: #1B365D;
+    color: #FFFFFF;
+}
+
+.uklib-navopen {
+    padding-bottom: 2px;
+    border-bottom: 4px solid #4CBCC0;
+}
+
+#uklibAskUsNav, #uklibLocationsHoursNav, #uklibStudySpacesNav, #uklibAccountsNav, #uklibSiteSearchFormNav {
+    border-bottom: 4px solid #1B365D;
+}
+
+#uklibAskUsNav:hover, #uklibLocationsHoursNav:hover, #uklibStudySpacesNav:hover, #uklibAccountsNav:hover, #uklibSiteSearchFormNav:hover {
+    border-bottom: 4px solid #4CBCC0;
+}
+
+.uklib-button {
+    background: #4CBCC0;
+}
+
+/* Universal Header Classes */
+
+#uklib-navbar-large {
+    padding-top: 10px;
+    min-height: 86px;
+}
+
+#uklib-navbar-large > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+#uklib-navbar-large > div > div {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+a.uklib-header, a.uklib-header:visited, a.uklib-header:hover, a.uklib-header:active,
+a.uklib-header-otherlink, a.uklib-header-otherlink:visited, a.uklib-header-otherlink:hover, a.uklib-header-otherlink:active {
+    color: #FFFFFF !important;
+}
+
+a.uklib-askus, a.uklib-askus:visited, a.uklib-askus:hover, a.uklib-askus:active {
+    color: #62E51B !important;
+}
+
+a.uklib-header-featuredlink, a.uklib-header-featuredlink:visited, a.uklib-header-featuredlink:hover, a.uklib-header-featuredlink:active {
+    color: #4CBCC0 !important;
+}
+
+a.uklib-header-alertlink, a.uklib-header-alertlink:visited, a.uklib-header-alertlink:hover, a.uklib-header-alertlink:active {
+    color: #FFDC00 !important;
+}
+
+#uklib-navbar-small {
+    min-height: 64px;
+}
+
+#uklib-navbar-small > div {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#uklibAskUs-small.navbar-collapse,
+#uklibMenu-small.navbar-collapse {
+    border-top: 0 !important;
+    box-shadow: none !important;
+    max-height: none !important;
+}
+
+#uklibAskUs-small .row,
+#uklibMenu-small .row {
+    padding: 10px;
+}
+
+#uklibMenu-small > div > a {
+    padding-left: 14px;
+}
+
+.toggle-me > a {
+    margin-left: 26px;
+    margin-right: 26px;
+    padding: 12px 4px 0px 4px;
+    display: block;
+}
+
+.toggle-me-submenu > a {
+    margin-left: 46px;
+    margin-right: 26px;
+    padding: 12px 4px 0px 4px;
+    display: block;
+}
+
+.toggle-rotate {
+    transform: rotate(90deg);
+    /* Legacy vendor prefixes that you probably don't need... */
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+    /* IE */
+    -ms-transform: rotate(90deg);
+    /* Opera */
+    -o-transform: rotate(90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+#uklibSiteSearchForm input, #uklibSiteSearchForm .btn,
+#uklibSiteSearchForm-small input, #uklibSiteSearchForm-small .btn {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+#uklibSiteSearchForm input,
+#uklibSiteSearchForm-small input {
+    border: none !important;
+}
+
+#uklibSiteSearchForm-small {
+    margin-right: 18px;
+}
+
+
+/* Universal Footer Classes */
+
+ul.uklib-footer-list > li > a, ul.uklib-footer-list > li > a:visited, ul.uklib-footer-list > li > a:hover, ul.uklib-footer-list > li > a:active {
+    color: #FFFFFF !important;
+    text-shadow: 1px 0 1px #1B365D, 2px 0 1px #1B365D, -1px 0 1px #1B365D, -2px 0 1px #1B365D;
+    background-image: linear-gradient(to top, rgba(161, 211, 237, 0.6) 0, rgba(161, 211, 237, 0.6) 0.5em, transparent 0.5em, transparent 110%), linear-gradient(to top, rgba(255, 255, 255, 0.6) 0, rgba(255, 255, 255, 0.6) 1px, transparent 1px, transparent 100%);
+    background-repeat: no-repeat;
+    background-position: 0 .5em, 0 0;
+}
+
+.uklib-footer-uklogo {
+    padding-right: 30px;
+}
+
+.uklib-footer-fdlp > img {
+    margin-top: 10px;
+}
+
+.uklib-footer-fdlp-xs {
+    padding-right: 0px;
+}
+
+.uklib-footer-fdlp-xs > img {
+    margin-top: 18px;
+}
+
+/* Universal Suprafooter Classes */
+
+#suprafooter {
+    font-family: "proxima-nova",sans-serif;
+    background: #EEEEEE;
+    max-width: 1200;
+    margin: 0 auto;
+}
+
+a.uklib-support-link,
+a.uklib-support-link:visited,
+a.uklib-support-link:hover,
+a.uklib-support-link:active {
+    font-size: 18px;
+    color: #FFA360;
+    font-weight: bold;
+}
+
+.uklib-campus-map {
+    margin-top: 25px;
+}
+
+a.uklib-supra-links,
+a.uklib-supra-links:visited,
+a.uklib-supra-links:hover,
+a.uklib-supra-links:active {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0033A0;
+}
+
+.sf-middle .featured_area {
+    font-weight: bold;
+    float: left;
+}
+
+.sf-middle .featured_phone,
+.sf-middle .featured_email {
+    float: right;
+}
+
+.sf-middle .contact_area {
+    font-weight: bold;
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+.sf-middle .contact_methods {
+    float: right;
+    /*border: 1px solid green;*/
+}
+
+.sf-middle .contact_email,
+.sf-middle .contact_phone {
+    text-align: right;
+}
+
+a.suprablue, a.suprablue:visited, a.suprablue:hover, a.suprablue:active {
+    color: #0033A0;
+}
+
+.uklib-social-buttons {
+    padding: 15px 10px 0px 10px;
+}
+
+/* Media queries for suprafooter */
+
+/* Mobile */
+[class*="sf-"] {
+    float: left;
+    width: 100%;
+    padding-bottom: 36px;
+    /*border: 1px solid #ccc;*/
+}
+
+.sf-right > div {
+    max-width: 225px;
+    text-align: center;
+    float: right;
+}
+
+@media only screen and (min-width: 480px) {
+    /* Tiny */
+    .sf-left {
+        float: left;
+        width: 50%;
+    }
+
+    .sf-middle {
+        width: 100%;
+    }
+
+    .sf-right {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Desktop */
+    .sf-left {
+        margin-left: -75%;
+        width: 25%;
+    }
+
+    .sf-middle {
+        padding: 0 15px;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .sf-right {
+        width: 25%;
+    }
+}
+
+
+/* Special classes, should override any other styles */
+
+.uklib-notice {
+    color: #FFDC00;
+}
+
+.uklib-notice a, .uklib-notice a:hover, .uklib-notice a:visited, .uklib-notice a:active {
+    color: #FFDC00 !important;
+    text-decoration: underline !important;
+}
+
+
+/* For the libqual survey link */
+#libqual {
+    padding: 15px 15px 15px 15px;
+    /*background: #FFDC00;*/
+    background: #62E51B;
+    text-align: center;
+    color: #000000;
+    border-radius: 5px 5px 0 0;
+}
+
