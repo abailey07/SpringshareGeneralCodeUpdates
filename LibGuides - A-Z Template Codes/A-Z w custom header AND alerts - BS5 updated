@@ -45,7 +45,7 @@
 <!-- END: Page Header -->
 <!-- BEGIN: Content Header -->
 <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
-    <nav id="s-lib-bc" aria-label="breadcrumb">{{breadcrumbs}}
+    <nav id="s-lib-bc" aria-label="breadcrumb">{{breadcrumbs_section}}
 </nav>
 
     <div id="s-lib-public-header-desc">{{page_description}}</div>
