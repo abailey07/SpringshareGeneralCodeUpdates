@@ -26,8 +26,7 @@ The following are the legacy (BS3) template keywords from Springshare.
 | {{breadcrumbs}} | This displays the navigation breadcrumbs on the page. |
 | {{page_title}} | This displays the title of your A-Z Database List, which can be customized in your Language Options. |
 | {{page_description}} |  This displays the description of the A-Z Database List, which can be customized in your Language Options. |
-| {{navbar_wide}} | This is the navigation bar for the A-Z Database List, including the Subject, Type, and Vendor filters, as well as the Search box. You can hide one or more of these filters using Custom CSS code (see Example 2 below).
-Please note: older custom templates may instead be using the {{navbar}} keyword with separate {{subject_list}}, {{type_list}}, and {{vendor_list}} keywords. |
+| {{navbar_wide}} | This is the navigation bar for the A-Z Database List, including the Subject, Type, and Vendor filters, as well as the Search box. You can hide one or more of these filters using Custom CSS code (see Example 2 below).  Please note: older custom templates may instead be using the {{navbar}} keyword with separate {{subject_list}}, {{type_list}}, and {{vendor_list}} keywords. |
 | {{alpha_list}} |  This displays the alphabetical name filters for the database list ("All", letters "A" to "Z", and "#"). |
 | {{search_reset}} | This displays the Clear Filters/Browse All Databases button. |
 | {{chat_widget_box}} |  This displays the chat widget selected in your A-Z Settings. | 
