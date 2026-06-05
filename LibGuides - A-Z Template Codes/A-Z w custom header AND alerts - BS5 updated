@@ -74,9 +74,7 @@
     </section>
 </div>
 <!-- END: content -->
-<!-- BEGIN: Page Footer -->
-{{system_footer}}
-<!-- END: Page Footer -->
+
 <div id="s-lib-alert" title=""><div id="s-lib-alert-content"></div></div><!-- popover.twig -->
 <div id="s-lib-popover-title" class="hide">
     <span class="text-info">
