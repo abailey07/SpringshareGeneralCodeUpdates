@@ -70,13 +70,6 @@
 							{{page_content_section}}
 						</div>
 					</div>
-			<div id="col2" class="col-md-4 center">
-						
-						{{popular_box}}
-						{{trials_box}}
-						{{content_box_experts}}
-						{{content_box_guides}}
-					</div>
         </div>
     </section>
 </div>
