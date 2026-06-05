@@ -106,6 +106,6 @@
 <!-- scroll_top.twig -->
 
 <!-- BEGIN: Custom Footer -->
-{{public_footer}}
+{{footer_section}}
 <!--  END: Custom Footer -->
 </body>
