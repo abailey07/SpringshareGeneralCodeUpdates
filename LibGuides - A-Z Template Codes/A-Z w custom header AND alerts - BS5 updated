@@ -48,7 +48,7 @@
     <nav id="s-lib-bc" aria-label="breadcrumb">{{breadcrumbs_section}}
 </nav>
 
-    <div id="s-lib-public-header-desc">{{page_description}}</div>
+    <div id="s-lib-public-header-desc">{{page_description_section}}</div>
 </div>
 <!-- END: Content Header -->
 <!-- BEGIN: Nav Bar -->
