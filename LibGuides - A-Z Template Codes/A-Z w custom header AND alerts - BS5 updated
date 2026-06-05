@@ -65,9 +65,6 @@
     <section>
         <div id="s-lg-az-cols" class="row">
             			<div id="col1" class="col-md-8 center">
-						<div id="s-lg-az-search-reset" class="pad-right-sm">
-							{{search_reset}}
-						</div>
 						<div id="s-lg-az-index" class="pad-right-sm">
 							{{alpha_list}}
 						</div>
