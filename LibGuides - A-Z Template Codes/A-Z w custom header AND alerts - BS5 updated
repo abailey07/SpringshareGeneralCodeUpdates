@@ -58,7 +58,7 @@
     <section>
         <div id="s-lg-az-search-bar" class="row">
             <div id="az-search-col-1" class="col-md-12 center">
-                {{navbar_wide}}
+                {{search_bar_section}}
             </div>
         </div>
     </section>
