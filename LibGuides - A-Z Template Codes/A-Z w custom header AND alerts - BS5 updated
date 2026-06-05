@@ -50,6 +50,7 @@
 
     <div id="s-lib-public-header-desc">{{page_description_section}}</div>
 </div>
+<div id="s-lib-alert">{{page_alert_section}}</div>
 <!-- END: Content Header -->
 
 <!-- BEGIN: content -->
