@@ -1,0 +1,113 @@
+<body class="s-lib-public-body">
+{{skip_link}}
+{{obsolete_browser_alert}}
+<!-- BEGIN: Page Header -->
+
+<!-- universal header/footer metadata start -->
+<meta name = "hdr.include" content = "1" />
+<meta name = "hdr.home.label" content = "A-Z Databases" />
+<meta name = "hdr.home.link" content = "https://libguides.uky.edu/az.php" />
+<meta name = "hdr.link1.label" content = "" />
+<meta name = "hdr.link1.url" content = "https://" />
+<meta name = "hdr.link2.label" content = "" />
+<meta name = "hdr.link2.url" content = "https://" />
+<meta name = "hdr.link3.label" content = "" />
+<meta name = "hdr.link3.url" content = "https://" />
+<meta name = "hdr.link4.label" content = "" />
+<meta name = "hdr.link4.url" content = "https://" />
+<meta name = "hdr.link5.label" content = "Research Guides" />
+<meta name = "hdr.link5.url" content = "https://libguides.uky.edu/" />
+<meta name = "hdr.link6.label" content = "Course Guides" />
+<meta name = "hdr.link6.url" content = "https://libguides.uky.edu/courseguides" />
+<!-- universal header/footer metadata end -->
+
+<script src="https://libanswers.uky.edu/load_chat.php?hash=79e25f267bd8a74fe0647b277141f6a2"></script>
+<div id="libchat_79e25f267bd8a74fe0647b277141f6a2"></div>
+
+<!-- universal header/footer files start -->
+<link rel="stylesheet" href="https://lib.uky.edu/webparts/ukhdr/2022/css/global_header_footer.css" media="all">
+<script src="https://lib.uky.edu/webparts/ukhdr/2022/js/universalheader.js"></script>
+<style>.ukl-ext-clamp .slab__wrapper { max-width: 95% !important; }</style>
+<!-- universal header/footer files end -->
+<!-- END: Page Header -->
+<!-- BEGIN: Content Header -->
+<div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
+    <nav id="s-lib-bc" aria-label="breadcrumb">{{breadcrumbs}}
+</nav>
+
+    <div id="s-lib-public-header-desc">{{page_description}}</div>
+</div>
+<!-- END: Content Header -->
+<!-- BEGIN: Nav Bar -->
+<div id="s-lib-public-nav" class="container s-lib-side-borders">
+    {{page_nav}}
+</div>
+<!-- END: Nav Bar -->
+<!-- BEGIN: content -->
+<div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders" tabindex="-1">
+    <section>
+        <div id="s-lg-az-search-bar" class="row">
+            <div id="az-search-col-1" class="col-md-12 center">
+                {{navbar_wide}}
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="s-lg-az-cols" class="row">
+            			<div id="col1" class="col-md-8 center">
+						<div id="s-lg-az-search-reset" class="pad-right-sm">
+							{{search_reset}}
+						</div>
+						<div id="s-lg-az-index" class="pad-right-sm">
+							{{alpha_list}}
+						</div>
+						<div id="s-lg-az-content" class="pad-right-sm">
+							<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div>
+						</div>
+					</div>
+			<div id="col2" class="col-md-4 center">
+						
+						{{popular_box}}
+						{{trials_box}}
+						{{content_box_experts}}
+						{{content_box_guides}}
+					</div>
+        </div>
+    </section>
+</div>
+<!-- END: content -->
+<!-- BEGIN: Page Footer -->
+{{system_footer}}
+<!-- END: Page Footer -->
+<div id="s-lib-alert" title=""><div id="s-lib-alert-content"></div></div><!-- popover.twig -->
+<div id="s-lib-popover-title" class="hide">
+    <span class="text-info">
+        <strong>title</strong>
+    </span>
+
+    <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">
+        &times;
+    </button>
+</div>
+
+<div id="s-lib-popover-content" class="hide">
+    <i class="fa fa-refresh fa-spin"></i> Loading...
+    <button class="btn btn-default btn-sm popclose" type="button">Close</button>
+</div>
+<!-- !popover.twig -->
+<!-- scroll_top.twig -->
+<div id="s-lib-scroll-top">
+    <a href="javascript:void(0);" onclick="jQuery('body').focus();" title="Back to Top"
+       aria-label="Back to Top">
+        <span class="fa-stack fa-lg" aria-hidden="true">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+        </span>
+    </a>
+</div>
+<!-- !scroll_top.twig -->
+
+<!-- BEGIN: Custom Footer -->
+{{public_footer}}
+<!-- END: Custom Footer -->
+</body>
