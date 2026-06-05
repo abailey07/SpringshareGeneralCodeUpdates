@@ -38,6 +38,7 @@
 			"
 			data-base_path="atoz"
 		></script>
+		{{header_section}}
 		<!-- universal header/footer files end -->
 
 
