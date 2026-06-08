@@ -63,14 +63,11 @@
         </div>
     </section>
     <section>
-        <div id="s-lg-az-cols" class="row">
-            			<div id="col1" class="col-md-12 center">
-						<div id="s-lg-az-content" class="pad-right-sm">
-							<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div> 
+		<div id="s-lg-az-content" class="pad-right-sm">
+			<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div> 
 							{{page_content_section}}
-						</div>
-					</div>
-        </div>
+		</div>
+
     </section>
 </div>
 <!-- END: content -->
