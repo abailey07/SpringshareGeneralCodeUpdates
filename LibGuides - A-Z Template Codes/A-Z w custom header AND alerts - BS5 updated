@@ -81,7 +81,7 @@
         <strong>title</strong>
     </span>
 
-    <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">
+    <button type="button" id="popclose" class="btn-close" onclick="jQuery('.s-lib-popover').popover('hide')">
         &times;
     </button>
 </div>
