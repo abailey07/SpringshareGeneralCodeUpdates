@@ -63,14 +63,10 @@
         </div>
     </section>
     <section>
-		<div id="s-lg-az-cols" class="row">
-			<div id="col1" class="col-md-8 center">
 				<div id="s-lg-az-content" class="pe-2"></div>
 							<div class="fw-bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div>
 							{{page_content_section}}
-				</div>
-			</div>
-		</div>					
+				</div>					
     </section>
 </div>
 <!-- END: content -->
