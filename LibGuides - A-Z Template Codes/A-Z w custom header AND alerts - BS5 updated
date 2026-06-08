@@ -64,8 +64,8 @@
     </section>
     <section>
 		<div id="s-lg-az-content" class="pad-right-sm">
-			<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div> 
-							{{page_content_section}}
+			{{page_content_section}}
+			<div class="bold s-lib-color-lt-grey pad-top-med text-center">Loading...</div> 							
 		</div>
 
     </section>
