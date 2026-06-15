@@ -43,7 +43,8 @@
 <!-- BEGIN: Content Header -->
 
     <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
-        {{breadcrumbs_section}}
+    <nav id="s-lib-bc" aria-label="breadcrumb">{{breadcrumbs_section}}
+</nav>
 
         {{page_title_section}}
 
