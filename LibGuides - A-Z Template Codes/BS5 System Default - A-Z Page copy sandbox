@@ -1,8 +1,9 @@
 <body class="s-lib-public-body">
     {{skip_to_main}}
-
+<!-- BEGIN: Page Header -->
     {{header_section}}
-
+<!-- END: Page Header -->
+<!-- BEGIN: Content Header -->
 
     <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
         {{breadcrumbs_section}}
@@ -14,7 +15,8 @@
         {{page_alert_section}}
 
     </div>
-
+<!-- END: Content Header -->
+ <!-- BEGIN: content -->
     <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders" tabindex="-1">
         <div id="s-lib-public-main-searchbar">
             {{search_bar_section}}
@@ -25,6 +27,8 @@
 
         </section>
     </div>
+    <!-- END: content -->
+     <!-- BEGIN: Custom Footer -->
     {{footer_section}}
-
+<!--  END: Custom Footer -->
 </body>
