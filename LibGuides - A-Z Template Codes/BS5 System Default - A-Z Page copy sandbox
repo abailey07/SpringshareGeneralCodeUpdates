@@ -2,6 +2,7 @@
     {{skip_to_main}}
 <!-- BEGIN: Page Header -->
     <!-- universal header/footer files start -->
+	 <!--This must stay per Eric on 6-15-26-->
 		<link rel="stylesheet" id="ukl-header-styles" href="https://lib.uky.edu/webparts/ukhdr/prod/css/global_header_footer.css" media="all" />
 		<script
 			id="ukl-header-script"
