@@ -45,7 +45,7 @@
 
     <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
     <nav id="s-lib-bc" aria-label="breadcrumb">{{breadcrumbs_section}}
-</nav>
+	</nav>
 
         {{page_title_section}}
 
