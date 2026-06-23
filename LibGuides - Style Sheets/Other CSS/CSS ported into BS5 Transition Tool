@@ -1,0 +1,285 @@
+<style>
+
+#s-lib-public-header{
+  width: 100vw !important;
+  padding: 30 0 0 0 !important;
+}
+
+div#s-lib-public-header-desc {
+    width: 90% !important;
+}
+
+.s-lib-header.container.s-lib-side-borders{
+ overflow: hidden !important;
+}
+
+.navbar-default {
+  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color-translucent)!important;
+}
+
+/*Reduces the huge padding on the search bar.*/
+
+#s-lg-az-filters {
+   padding-bottom: 0rem;
+   padding-right: 0rem;
+   padding-top: 0rem;
+   padding-left: 0rem;
+}
+
+#s-lg-az-filter-cols>.pt-3 {
+   padding-top: 0!important;
+}
+
+/* search button 100% */ 
+
+#s-lg-az-filter-cols > button.btn.btn-primary {
+   max-width: none;
+}
+
+/*Reduces padding in the row of search boxes. The <div> specification is necessary to overwrite the defaults.*/
+
+#s-lg-az-filter-cols div.row {
+   padding: 0 0;
+}
+
+/*Enlarges the keyword search to provide more space for typing. Keeps text from overlapping the inset shadow.*/
+
+#col-search .justify-content-start {
+   width: 100%;
+   height: 100%;
+}
+
+.s-lg-az-search {
+   width: 100%;
+   height: 100%;
+}
+
+/*Adjusts comboboxes to be on the same line as the keyword input. Adds consistent pointer.*/
+
+.select2-search__field {
+   height: 16px!important;
+   cursor: pointer
+}
+
+/* adjusts height of text area in comboboxes so that text fits vertically */ 
+#s-lg-az-filter-cols > div.col-md-10 > div > div.col-types.col.ps-3 > div > span > span.selection > span > span > textarea {
+   height: 16px!important;
+}
+
+/*Adjusts the selections to maintain consistent vertical placement.*/
+
+.select2-selection__choice {
+   margin: 0 .25rem 0 0!important;
+   -ms-transform: translateY(3px);
+   -o-transform: translateY(3px);
+   -moz-transform: translateY(3px);
+   -webkit-transform: translateY(3px);
+   transform: translateY(3px)
+}
+
+/*Restores the "Remove item" button. This doesn't seem to be working */
+
+#s-lg-az-filters .select2-selection__choice__remove, #az-public-mobile-filters .select2-selection__choice__remove {
+   display: inline !important;
+   height: .4rem;
+   width: .4rem;
+   padding: 0 !important;
+}
+
+/*Tightens the dropdowns in the AZ comboboxes.*/
+
+.select2-results__option {
+   padding: .25rem 1.25rem!important
+}
+
+/*Shortens the dropdown menu slightly.*/
+
+.select2-container--bootstrap5 .select2-dropdown .select2-results__options {
+   max-height: 240px
+}
+
+/*Adds animated carets to the comboboxes.*/
+
+.select2 .select2-selection::after {
+   content: "";
+   border-top: .3em solid;
+   border-right: .3em solid transparent;
+   border-bottom: .3em solid transparent;
+   border-left: .3em solid transparent;
+   display: inline-flex;
+   position: absolute;
+   top: 45%;
+   right: .5rem;
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+   transition: all .3s linear;
+   -moz-transform: rotate(270deg) translateY(.15rem);
+   -webkit-transform: rotate(270deg) translateY(.15rem);
+   transform: rotate(270deg) translateY(.15rem);
+}
+
+.select2-container--open .select2-selection::after {
+   -moz-transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+   transition: all .3s linear;
+   -moz-transform: translateY(.15rem);
+   -webkit-transform: translateY(.15rem);
+   transform: translateY(.15rem);
+   }
+
+/*Decreases the size of the "recommended databases" link and keeps it in sans-serif on mobile.*/
+
+.recommended-list {
+   font: .9rem 'Helvetica', 'arial', sans-serif
+}
+
+/*Normalizes the cursor on the mobile filter edit button and the comboboxes.*/
+
+#az-mobile-filter-edit {
+   cursor: pointer
+}
+
+/* commenting out as it broke descr on responsive mode  */
+/* attempt to remove whitespace around page description  CB */
+
+#s-lib-public-header-desc {
+   white-space: unset !important;
+}
+
+#s-lib-public-header {
+   margin-top: 0em;
+   margin-bottom: 0em;
+} 
+
+#s-lib-public-header-desc{
+  width: 100vw;
+}
+
+/* attempt to reduce height of filter bar  CB */
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+
+}
+
+
+/*MEDIA QUERIES*/
+/*xs*/
+
+@media (max-width:575.98px) {
+/*Improves appearance of "recommended databases" link on mobile by hiding initial space. Adjust if you change the font.*/
+
+.d-lg-none .mb-4:has(.recommended-list) {
+   text-indent: -.268rem;
+}
+
+}
+/*md and smaller*/
+@media (max-width:991.98px) {
+/*Forces search text input to the same height as the comboboxes. May need changed if you change the font.*/
+.s-lg-az-search {
+  min-height: 52.8px;
+}
+
+/*Removes shadow from combobox dropdowns.*/
+.select2-container--bootstrap5 .select2-dropdown {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+/*Restores normal :focus drop-shadows on comboboxes.*/
+.select2-container--focus {
+  border-color: #6c757d!important;
+  -moz-box-shadow: 0 0 0 .25rem rgba(var(--bs-secondary-rgb),.5)!important;
+  -webkit-box-shadow: 0 0 0 .25rem rgba(var(--bs-secondary-rgb),.5)!important;
+  box-shadow: 0 0 0 .25rem rgba(var(--bs-secondary-rgb),.5)!important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/*Adds thicker border to dropdown for visibility.*/
+.select2-dropdown {
+   border: 2px var(--bs-border-style) var(--bs-border-color-translucent)!important
+}
+
+.select2-dropdown--below {
+   border-top: none !important;
+}
+
+.select2-dropdown--above {
+   border-bottom: none !important;
+}
+
+/*Increases font size in the dropdown.*/
+
+ul.select2-results__option, ul.select2-results__options {
+   font-size: .85rem !important
+}
+}
+
+/*lg and larger*/
+
+@media (min-width:992px) {
+/*Enlarges comboboxes to match the keyword search and adds padding after the icon.*/
+
+.select2 {
+  height: 100%!important;
+  width: 100%!important;
+}
+
+.select2-selection {
+  padding-left: .75rem;
+  padding-right: 1.2rem
+}
+
+/*Sets z-index to hide dropdown shadows behind AZ search bar combo boxes.*/
+
+.select2 {
+  background-color: #fefffe;
+  z-index: 1052
+}
+
+
+/*Changes :focus on comboboxes to an inset shadow to prevent overlapping with other elements.*/
+.select2-container--focus, #s-lg-az-filters .s-lg-az-search:focus {
+  -moz-box-shadow: inset 0 0 0 .25rem rgba(var(--bs-secondary-rgb),.5)!important;
+  -webkit-box-shadow: inset 0 0 0 .25rem rgba(var(--bs-secondary-rgb),.5)!important;
+  box-shadow: inset 0 0 0 .25rem rgba(var(--bs-secondary-rgb),.5)!important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+
+/*Tightens the dropdowns in the AZ comboboxes. Adds border for visibility.*/
+
+.select2-dropdown {
+  border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color-translucent)!important;
+}
+
+.select2-dropdown--below {
+  padding: 0 0 .75rem !important;
+  border-top: none !important
+}
+
+.select2-dropdown--above {
+  padding: .75rem 0 0 !important;
+  border-bottom: none !important
+}
+
+i.fa-angle-down {
+  display: none !important;
+}
+
+img:has(div.d-flex.justify-content-start.align-items-baseline){
+ display: none !important;
+}
+
+.s-lg-az-search::placeholder, .select2-container--bootstrap5 .select2-search.select2-search--inline .select2-search__field::placeholder, .select2-selection__choice__display, .select2-container--open, .select2-container, ul.select2-results__option, ul.select2-results__options, #col-search input {
+
+font-size: 1rem !important;
+overflow: visible;
+
+}
+}
+
+</style>
