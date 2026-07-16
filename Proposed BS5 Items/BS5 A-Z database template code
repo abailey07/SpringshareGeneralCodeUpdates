@@ -1,0 +1,72 @@
+<body class="s-lib-public-body">
+
+    {{skip_to_main}}
+
+<!-- BEGIN: Page Header -->
+<!-- universal header/footer files start -->
+		<link rel="stylesheet" id="ukl-header-styles" href="https://lib.uky.edu/webparts/ukhdr/prod/css/global_header_footer.css" media="all" />
+		<script
+			id="ukl-header-script"
+			type="module"
+			src="https://lib.uky.edu/webparts/ukhdr/prod/js/universalHeader.js"
+			onerror="
+			(() => {
+				// Remove this script
+				old_script = document.querySelector('#ukl-header-script');
+				old_script.remove();
+
+				// Use the fallback css
+				const styles = document.querySelector('#ukl-header-styles');
+				styles.href='https://cdn.jsdelivr.net/gh/uklibraries/UKL_HeaderFooter@main/css/global_header_footer.css'
+				
+				// Create a new script and use fallback js
+				const script = document.createElement('script');
+				script.id = 'ukl-header-script';
+				script.type = 'module';
+				script.src = 'https://cdn.jsdelivr.net/gh/uklibraries/UKL_HeaderFooter@main/js/universalHeader.js';
+				script.dataset.base_path = 'atoz';
+				document.head.appendChild(script);
+
+				// Remove footer script
+				old_footer=document.querySelector('#ukl-footer-script')
+				old_footer.remove();
+				
+				// Create a new footer script and use fallback js
+				const footer_script = document.createElement('script');
+				footer_script.src='https://cdn.jsdelivr.net/gh/uklibraries/UKL_HeaderFooter@main/js/comboFooterShared.js';
+				document.body.appendChild(footer_script);
+			})();
+			"
+			data-base_path="atoz"
+		></script>
+		<!-- universal header/footer files end -->
+
+<!-- END: Page Header -->
+<!-- BEGIN: Content Header -->
+ <div id="s-lib-public-header" class="s-lib-header container s-lib-side-borders">
+  {{breadcrumbs_section}}
+
+        {{page_title_section}}
+
+        {{page_description_section}}
+
+        {{page_alert_section}}
+</div>
+
+<!-- END: Content Header -->
+ <!-- BEGIN: content -->
+    <div id="s-lib-public-main" class="s-lib-main container s-lib-side-borders" tabindex="-1">
+        <div id="s-lib-public-main-searchbar">
+            {{search_bar_section}}
+
+        </div>
+        <section>
+            {{page_content_section}}
+
+        </section>
+    </div>
+    <!-- END: content -->
+     <!-- BEGIN: Custom Footer -->
+    {{footer_section}}
+<!--  END: Custom Footer -->
+</body>
