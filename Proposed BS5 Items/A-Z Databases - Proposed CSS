@@ -1,10 +1,5 @@
 /*CSS code for A-Z Database page.*/
 
-/* Hide the Vendors dropdown in A-Z, taken from BS3 custom JS/CSS code box */
-#col-vendors {
-    display: none;
-}
-
 /* Re-order the search box in A-Z.  Change mobile view to one item per line, taken from BS3 custom JS/CSS code box   */
 #s-lg-az-filter-cols { display: block; }
 #s-lg-az-filter-cols .col-md-3 { padding-bottom: 20px; }
