@@ -304,3 +304,8 @@ overflow: visible;
   color: #000000;
   font-size: 16px;
 }
+
+.az-configured-fields-value {
+   font-size: 16px;
+}
+}
