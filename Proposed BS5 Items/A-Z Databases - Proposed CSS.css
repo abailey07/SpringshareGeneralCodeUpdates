@@ -296,6 +296,8 @@ font-size: 1rem !important;
 overflow: visible;
 
 }
+}
+
 
 /* Change weight, color and font size of Alternate Name. AB 7-16-26 */
 
@@ -307,5 +309,4 @@ overflow: visible;
 
 .az-configured-fields-value {
    font-size: 16px;
-}
 }
