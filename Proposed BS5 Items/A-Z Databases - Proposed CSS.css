@@ -296,4 +296,11 @@ font-size: 1rem !important;
 overflow: visible;
 
 }
+
+/* Change weight, color and font size of Alternate Name. AB 7-16-26 */
+
+.az-configured-fields-label {
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
 }
