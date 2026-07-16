@@ -310,3 +310,9 @@ overflow: visible;
 .az-configured-fields-value {
    font-size: 16px;
 }
+
+/* Change color of A-Z index letters to match other blue links. AB 7-16-26 */
+
+#s-lg-az-index button {
+   color: #2954d1;
+}
