@@ -36,10 +36,10 @@ div#s-lib-public-header-desc {
 /*Reduces the huge padding on the search bar.*/
 
 #s-lg-az-filters {
-   padding-bottom: 0rem;
-   padding-right: 0rem;
-   padding-top: 0rem;
-   padding-left: 0rem;
+   padding-bottom: .25rem;
+   padding-right: .5rem;
+   padding-top: .25rem;
+   padding-left: .5rem;
 }
 
 #s-lg-az-filter-cols>.pt-3 {
