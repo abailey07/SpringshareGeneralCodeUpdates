@@ -28,6 +28,27 @@ div#s-lib-public-header-desc {
  overflow: hidden !important;
 }
 
+/* attempt to remove whitespace around page description  CB */
+
+#s-lib-public-header-desc {
+   white-space: unset !important;
+}
+
+#s-lib-public-header {
+   margin-top: 0em;
+   margin-bottom: 0em;
+} 
+
+#s-lib-public-header-desc{
+  width: 100vw;
+}
+
+/* Reduce margin on bottom of public header title. AB 7-16-26 */
+#s-lib-public-header-title {
+  margin-bottom: .5rem;
+}
+
+
 .navbar-default {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color-translucent)!important;
 }
@@ -155,20 +176,7 @@ div#s-lib-public-header-desc {
 }
 
 /* commenting out as it broke descr on responsive mode  */
-/* attempt to remove whitespace around page description  CB */
 
-#s-lib-public-header-desc {
-   white-space: unset !important;
-}
-
-#s-lib-public-header {
-   margin-top: 0em;
-   margin-bottom: 0em;
-} 
-
-#s-lib-public-header-desc{
-  width: 100vw;
-}
 
 /* attempt to reduce height of filter bar  CB */
 
@@ -327,7 +335,3 @@ overflow: visible;
   margin: .313rem 0 .5rem 0;
 }
 
-/* Reduce margin on bottom of public header title. AB 7-16-26 */
-#s-lib-public-header-title {
-  margin-bottom: .5rem;
-}
