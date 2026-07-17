@@ -327,3 +327,8 @@ overflow: visible;
 #s-lib-bc-list.breadcrumb {
   margin: .313rem 0 .5rem 0;
 }
+
+/* Reduce margin on bottom of public header title. AB 7-16-26 */
+#s-lib-public-header-title {
+  margin-bottom: .5rem;
+}
