@@ -93,12 +93,12 @@ div#s-lib-public-header-desc {
    transform: translateY(3px)
 }
 
-/*Restores the "Remove item" button. This doesn't seem to be working */
+/*Restores the "Remove item" button. Modified by AB 7-17-26  */
 
 #s-lg-az-filters .select2-selection__choice__remove, #az-public-mobile-filters .select2-selection__choice__remove {
    display: inline !important;
-   height: .4rem;
-   width: .4rem;
+   min-height: 14px;
+   min-width: 14px;
    padding: 0 !important;
 }
 
