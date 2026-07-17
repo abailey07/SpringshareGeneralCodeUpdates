@@ -319,6 +319,6 @@ overflow: visible;
 
 /* Fix width of scroll bars on A-Z list. AB 7-16-26 */
 
-*::-webkit-scrollbar {
+*{
   scrollbar-width: auto;
 }
