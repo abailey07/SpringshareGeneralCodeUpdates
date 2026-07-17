@@ -2,7 +2,7 @@
 
 #s-lib-public-header{
   width: 100vw !important;
-  padding: 1.875rem 0 0 0 !important;
+  margin: 1.875rem 0 0 0 !important;
 }
 
 div#s-lib-public-header-desc {
