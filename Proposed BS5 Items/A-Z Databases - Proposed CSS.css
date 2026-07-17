@@ -322,3 +322,7 @@ overflow: visible;
 *{
   scrollbar-width: auto;
 }
+
+#s-lib-bc-list.breadcrumb {
+  margin: .313rem 0 1rem 0;
+}
