@@ -316,3 +316,9 @@ overflow: visible;
 #s-lg-az-index button {
    color: #2954d1;
 }
+
+/* Fix width of scroll bars on A-Z list. AB 7-16-26 */
+
+*::-webkit-scrollbar {
+  scrollbar-width: auto;
+}
