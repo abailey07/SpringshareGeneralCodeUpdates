@@ -8,6 +8,21 @@ div#s-lib-public-header-desc {
     width: 90% !important;
 }
 
+/* attempt to remove whitespace around page description  CB */
+
+#s-lib-public-header-desc {
+   white-space: unset !important;
+}
+
+#s-lib-public-header {
+   margin-top: 0em;
+   margin-bottom: 0em;
+} 
+
+#s-lib-public-header-desc{
+  width: 100vw;
+}
+
 .s-lib-header.container.s-lib-side-borders{
  overflow: hidden !important;
 }
@@ -139,20 +154,7 @@ div#s-lib-public-header-desc {
 }
 
 /* commenting out as it broke descr on responsive mode  */
-/* attempt to remove whitespace around page description  CB */
 
-#s-lib-public-header-desc {
-   white-space: unset !important;
-}
-
-#s-lib-public-header {
-   margin-top: 0em;
-   margin-bottom: 0em;
-} 
-
-#s-lib-public-header-desc{
-  width: 100vw;
-}
 
 /* attempt to reduce height of filter bar  CB */
 
