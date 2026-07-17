@@ -127,6 +127,12 @@ div#s-lib-public-header-desc {
    padding: 0 !important;
 }
 
+/* Change color of 'X' in Subject and Type comboboxes. AB 7-17-26 */
+.select2-container--bootstrap5 .select2-selection--multiple .select2-selection__rendered .select2-selection__choice .select2-selection__choice__remove{
+background-color: #dc3545;
+opacity: 1;
+}
+
 /*Tightens the dropdowns in the AZ comboboxes.*/
 
 .select2-results__option {
