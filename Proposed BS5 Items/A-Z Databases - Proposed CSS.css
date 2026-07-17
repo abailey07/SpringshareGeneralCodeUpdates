@@ -113,6 +113,11 @@ div#s-lib-public-header-desc {
    transform: translateY(3px)
 }
 
+/* Adds larger margin between choice remove 'X' and text in Subject and Type comboboxes. AB 7-16-26 */
+.select2-container--bootstrap5 .select2-selection--multiple:not(.form-select-sm):not(.form-select-lg) .select2-selection__choice .select2-selection__choice__display {
+    margin-left: 1rem;
+}
+
 /*Restores the "Remove item" button. Modified by AB 7-17-26  */
 
 #s-lg-az-filters .select2-selection__choice__remove, #az-public-mobile-filters .select2-selection__choice__remove {
