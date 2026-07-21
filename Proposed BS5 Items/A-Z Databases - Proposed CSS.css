@@ -346,3 +346,7 @@ overflow: visible;
   margin: .313rem 0 .5rem 0;
 }
 
+/* Decrease margin between search box and top of the main content area. AB 7-21-26 */
+#az-search-col-1>nav {
+   margin-bottom: 1.5rem;
+}
