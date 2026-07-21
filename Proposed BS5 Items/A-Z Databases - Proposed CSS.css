@@ -360,3 +360,8 @@ overflow: visible;
 .select2-container .select2-selection--multiple {
    display: inline-flex;
 }
+
+/* More accessible color for fonts in Featured/New/Trial databases sections. AB 7-21-26 */
+#s-lg-az-popular .az-description,#s-lg-az-popular .az-description-full,#s-lg-az-trials .az-description,#s-lg-az-trials .az-description-full {
+    color: #4f5064
+}
