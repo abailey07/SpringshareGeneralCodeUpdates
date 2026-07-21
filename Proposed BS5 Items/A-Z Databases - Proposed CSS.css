@@ -355,3 +355,8 @@ overflow: visible;
 .navbar {
    --bs-navbar-padding-x: 0.5rem;
 }
+
+/* Better vertically center "Subjects" and "Types" labels in A-Z search box. AB 7-21-26 */
+.select2-container .select2-selection--multiple {
+   display: inline-flex;
+}
