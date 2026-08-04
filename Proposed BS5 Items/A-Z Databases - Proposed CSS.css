@@ -357,11 +357,6 @@ overflow: visible;
     color: #4f5064
 }
 
-/* Make Database/Keyword search box have sharp corners like the other two boxes.  AB 8-4-26 */
-#s-lg-az-filter-cols div.row {
-border-radius: 0rem;
-}
-
 /* Change background color to visually Increase space between A-Z filters. AB 8-4-26 */
 
 #s-lg-az-filter-cols div.row {
