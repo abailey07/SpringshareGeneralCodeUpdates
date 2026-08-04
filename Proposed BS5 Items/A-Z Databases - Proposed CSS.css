@@ -349,7 +349,7 @@ overflow: visible;
 
 /* Better vertically center "Subjects" and "Types" labels in A-Z search box. AB 7-21-26 */
 .select2-container .select2-selection--multiple {
-   display: inline-flex;
+   display: flex;
 }
 
 /* More accessible color for fonts in Featured/New/Trial databases sections. AB 7-21-26 */
