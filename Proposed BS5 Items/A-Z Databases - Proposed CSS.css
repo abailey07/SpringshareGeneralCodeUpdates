@@ -372,3 +372,8 @@ background-color: #fff;
 #s-lg-az-filter-cols div.row>div {
     border-right: none;
 }
+
+/* Decrease left padding for combo boxes.  AB 8-4-26 */
+.ps-3 {
+    padding-left: .75rem!important;
+}
