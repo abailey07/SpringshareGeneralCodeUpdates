@@ -372,3 +372,8 @@ background-color:#f3f6f9;
 #col-search>div {
 background-color: #fff;
 }
+
+/* Eliminate right border of all combo boxes.  AB 8-4-26 */
+#s-lg-az-filter-cols div.row>div {
+    border-right: none;
+}
