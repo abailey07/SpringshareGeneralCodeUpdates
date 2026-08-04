@@ -357,7 +357,7 @@ overflow: visible;
     color: #4f5064
 }
 
-/* Widen the space between A-Z filters. This does not work. AB 7-23-26 */
-.col-md-10 div.row {
-    gap: 1rem;
+/* Make Database/Keyword search box have sharp corners like the other two boxes.  AB 8-4-26 */
+#s-lg-az-filter-cols div.row {
+border-radius: 0rem;
 }
