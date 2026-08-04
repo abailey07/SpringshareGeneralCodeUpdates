@@ -367,3 +367,8 @@ border-radius: 0rem;
 #s-lg-az-filter-cols div.row {
 background-color:#f3f6f9;
 }
+
+/* Background of Database/Keyword search box white. AB 8-4-26 */
+#col-search>div {
+background-color: #fff;
+}
