@@ -1,12 +1,13 @@
 <style>
 
+/* LibGuides box titles - ensure size and text wrapping for large words, in place due to UK 3-col guide template; EW 10-29-26*/
 .s-lib-box .s-lib-box-title {
   font-size: 1.5rem;
   overflow-wrap: anywhere;
   hyphens: auto;
 }
  
-/* LibGuides side columns */
+/* LibGuides side columns - decrease font size for large words, in place due to UK 3-col guide template; EW 10-29-26*/
 #s-lg-col-0 .s-lib-box-title,
 .col-md-2 .s-lib-box-title {
   font-size: 1.15rem;
